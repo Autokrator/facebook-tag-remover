@@ -17,4 +17,15 @@
 		  "js": ["jquery-2.1.4.min.js", "contentscript.js"]
 		}
 	]
+	
+	"commands": {
+        "ActivateTagRemoval": {
+            "suggested_key": {
+                "default": "Alt+X",
+                "mac": "Alt+X",
+                "linux": "Alt+X"
+            },
+            "description": "Activate Tag Removal"
+        }
+    }
 }
