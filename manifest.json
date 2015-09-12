@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+
+	//extension info
+	"name": "Friend Tag Remover",
+	"description": "Removes Facebook comments with friend tags.",
+	"version": "1.0",
+
+	"page_action": {
+		//displayed tooltip on toolbar
+		"default_title": "Facebook Tag Remover"
+	},
+	
+	"content_scripts": [
+		{
+		  "matches": ["http://facebook.com/*","https://facebook.com/*"],
+		  "js": ["background.js"]
+		}
+	],
+}
